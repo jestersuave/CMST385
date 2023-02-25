@@ -1,0 +1,89 @@
+/* Making the video billboard */
+.video-billboard {
+    position: relative;
+    height: 500px;
+    background: black;
+  }
+  .video-billboard video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  /* Making the news articles */
+  .news-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    background: white;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  /* Setting the news articles in 3 columns */
+  .news-column {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Setting up the styling for the news body content */
+  .news-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .news-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .news-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* Making an album box */
+.album-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-top: 50px;
+  }
+  
+  /* Setting the columns to 3 */
+  .album-column {
+    width: calc(33.33% - 20px);
+    margin-right: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Content inside the album bos for the discography */
+  .album-image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .album-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .album-description {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  .album-songs {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .album-songs ul {
+    margin: 0;
+    padding-left: 20px;
+  }
+  .album-songs li {
+    margin-bottom: 5px;
+  }
