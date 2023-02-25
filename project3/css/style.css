@@ -2,6 +2,7 @@ body {
     background-color: #3E3D3E;
 }
 
+
 /* Making the video billboard */
 .video-billboard {
     position: relative;
@@ -33,7 +34,7 @@ body {
   
   /* Active Link styling */
   .menu a.active {
-    background-color: #4CAF50;
+    background-color: #0051ff;
   }
 
   /* Making the news articles */
