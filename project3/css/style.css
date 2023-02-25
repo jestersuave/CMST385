@@ -12,6 +12,25 @@
     width: 100%;
     object-fit: cover;
   }
+  /* Menu bar styling */
+  .menu {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Menu Links styling */
+  .menu a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Active Link styling */
+  .menu a.active {
+    background-color: #4CAF50;
+  }
   
   /* Making the news articles */
   .news-box {
