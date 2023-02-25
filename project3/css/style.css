@@ -1,3 +1,7 @@
+.background-color {
+    background: #3E3D3E
+}
+
 /* Making the video billboard */
 .video-billboard {
     position: relative;
@@ -106,7 +110,7 @@
   .album-songs li {
     margin-bottom: 5px;
   }
-  
+
   /* The play button that takes you to youtube for the album */
   .play-button {
     display: inline-block;
