@@ -28,13 +28,13 @@ body h4 {
   .menu {
     background-color: #40478a;
     overflow: hidden;
-    text-align: right;
+    text-align: center;
   }
 
   /* Menu Links styling */
   .artist {
     font-size: 32px;
-    text-align: left;
+    text-align: center;
     font-style: "bold";
     font-family: "Snell Roundhand", cursive;
   }
