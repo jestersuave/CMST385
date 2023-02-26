@@ -10,26 +10,35 @@ body {
 .video-billboard {
     position: relative;
     height: 500px;
-  }
-  .video-billboard iframe {
+    padding-bottom: 50%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    }
+.video-billboard iframe {
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    pointer-events: none;
   }
   /* Menu bar styling */
   .menu {
     background-color: #40478a;
     overflow: hidden;
+    text-align: right;
   }
   
   /* Menu Links styling */
+  .artist {
+    text-align: left;
+    font-style: "bold";
+    font-family: Script;
+  }
   .menu a {
     float: left;
     color: #d3c503;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
@@ -160,20 +169,16 @@ body {
   footer {
     background-color: #40478a;
     padding: 20px;
-    text-align: center;
   }
   
   footer p {
     margin-bottom: 10px;
+    text-align: center;
   }
   
   nav ol {
-    list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: left;
-    border: white;
   }
   
   nav ol li {
