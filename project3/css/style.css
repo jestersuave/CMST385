@@ -1,15 +1,16 @@
-/* Styling the body */
+/* General styling the body */
 body {
     background-color: #373e79;
     font-family: Verdana, Arial;
     color: #d5d7e4;
 }
-
-
+body h4 {
+    font-style: italic;
+}
 /* Making the video billboard */
 .video-billboard {
     position: relative;
-    height: 500px;
+    height: 50px;
     padding-bottom: 50%;
     padding-top: 30px;
     height: 0;
@@ -21,7 +22,6 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    pointer-events: none;
   }
   /* Menu bar styling */
   .menu {
