@@ -2,7 +2,7 @@
 body {
     background-color: #06003a;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
 }
 
 
@@ -25,7 +25,7 @@ body {
     background-color: #333;
     overflow: hidden;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
   }
   
   /* Menu Links styling */
@@ -48,11 +48,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: stretch;
-    background: #3E3D3E;
     padding: 20px;
     margin-top: 50px;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
   }
   
   /* Setting the news articles in 3 columns */
@@ -84,7 +83,7 @@ body {
     align-items: stretch;
     margin-top: 50px;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
   }
   
   /* Setting the columns to 3 */
@@ -159,17 +158,17 @@ body {
 
   /* Creating footer styling */
   footer {
-    background-color: #f2f2f2;
+    background-color: #08014b;
     padding: 20px;
     text-align: center;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
   }
   
   footer p {
     margin-bottom: 10px;
     font-family: Verdana, Arial;
-    color: "White";
+    color: white;
   }
   
   nav ol {
@@ -178,18 +177,14 @@ body {
     padding: 0;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Arial;
-    color: "White";
   }
   
   nav ol li {
     margin: 0 10px;
-    font-family: Verdana, Arial;
-    color: "White";
   }
   
   nav ol li a {
-    color: #333;
+    color: #690000;
     text-decoration: none;
   }
   
