@@ -1,7 +1,7 @@
 /* General styling the body */
 body {
     background-color: #373e79;
-    font-family: Verdana, Arial;
+    font-family: Verdana, Arial, sans-serif;
     color: #d5d7e4;
 }
 body h4 {
@@ -34,6 +34,7 @@ body a {
     text-align: center;
   }
   .menu h1 {
+    font-size: 32px;
     font-family: "Brush Script MT", cursive;
   }
 
