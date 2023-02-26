@@ -23,21 +23,22 @@ body h4 {
     width: 100%;
     height: 100%;
   }
+
   /* Menu bar styling */
   .menu {
     background-color: #40478a;
     overflow: hidden;
     text-align: right;
   }
-  
+
   /* Menu Links styling */
-  .artist {
+  menu.artist {
     text-align: left;
     font-style: "bold";
-    font-family: Script;
+    font-family: "Snell Roundhand", cursive;
   }
   .menu a {
-    float: left;
+    float: right;
     color: #d3c503;
     padding: 14px 16px;
     text-decoration: none;
