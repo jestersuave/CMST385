@@ -32,7 +32,8 @@ body h4 {
   }
 
   /* Menu Links styling */
-  menu.artist {
+  .artist {
+    font-size: 32px;
     text-align: left;
     font-style: "bold";
     font-family: "Snell Roundhand", cursive;
