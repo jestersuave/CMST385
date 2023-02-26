@@ -10,6 +10,13 @@ body h4 {
 body a {
     color: #d3c503;
 }
+
+/* Styling the captions */
+figcaption {
+    font-size: 6px;
+    font-style: italic;
+}
+
 /* Making the video billboard */
 .video-billboard {
     position: relative;
@@ -32,9 +39,10 @@ body a {
     background-color: #40478a;
     overflow: hidden;
     text-align: center;
+    padding-bottom: 10px;
   }
   .menu h1 {
-    font-size: 32px;
+    font-size: 48px;
     font-family: "Brush Script MT", cursive;
   }
 
