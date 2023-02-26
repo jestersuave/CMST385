@@ -48,7 +48,7 @@ figcaption {
 
   /* Menu Links styling */
   .menu a {
-    float: center;
+    text-align: center;
     color: #d3c503;
     padding: 14px 16px;
     text-decoration: none;
@@ -134,7 +134,7 @@ figcaption {
   .album-songs ul {
     margin: 0;
     padding-left: 20px;
-    border: transparent transparent transparent #d5d7e4;
+    border: #d5d7e4;
   }
   .album-songs li {
     margin-bottom: 5px;
