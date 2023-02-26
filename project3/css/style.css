@@ -11,7 +11,7 @@ body {
     position: relative;
     height: 500px;
   }
-  .video-billboard video {
+  .video-billboard iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -59,6 +59,9 @@ body {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
+  }
+  .news-title a {
+    color: #d3c503;
   }
   .news-subline {
     font-size: 11px;
