@@ -33,14 +33,11 @@ body a {
     overflow: hidden;
     text-align: center;
   }
+  .menu h1 {
+    font-family: "Brush Script MT", cursive;
+  }
 
   /* Menu Links styling */
-  .artist {
-    display: inline-block;
-    background-image: url(https://cdn.dribbble.com/users/391315/screenshots/3438441/aliciakeys_sketch_dribbble.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
   .menu a {
     float: center;
     color: #d3c503;
