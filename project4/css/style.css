@@ -65,7 +65,7 @@ margin-right: 30%;
 
  /*Menu and options*/
   .menu {
-    display: inline-block;
+    align-content: center;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -97,6 +97,7 @@ margin-right: 30%;
     height: 128px;
     margin: 20 0 20 20;
     border: none;
+    background-color: none;
   }
 
 
