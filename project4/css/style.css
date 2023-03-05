@@ -22,10 +22,10 @@ font-size: 1vw;
 
 /* Image carousel */
 .carousel {
-    position: center;
+    position: relative;
     overflow: hidden;
-    height: 800px;
-    width: 30vw;
+    height: 40vw;
+    width: 100vw;
   }
   
   .carousel-container {
@@ -74,6 +74,7 @@ font-size: 1vw;
     padding: 0;
     text-align: center;
     font-size: 2rem;
+    width: 80vw;
   }
   
   .menu li {
@@ -89,11 +90,10 @@ font-size: 1vw;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
-    background-color: #133458;
   }
   
   .menu a:hover {
-    background-color: #021e3b;
+    background-color: #133458;
   }
 
   .menu img {
