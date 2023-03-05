@@ -68,22 +68,23 @@ margin-right: 30%;
     display: inline-block;
     margin: 0;
     padding: 0;
-    align-content: center;
-    size: 18px;
+    text-align: center;
+    size: 30px;
   }
   
   nav li {
     display: inline-block;
     margin: 0 10px;
-    border: solid;
+    background-color: #3498db;
+    border-radius: 5px;
+    padding: 5px 10px;
   }
   
   nav li a {
+    color: #fff;
     text-decoration: none;
-    color: #1b4777;
-    padding-bottom: 5px;
-    border: solid;
-    transition: border-color 0.2s ease-in-out;
+    font-weight: bold;
+    text-transform: uppercase;
   }
   
   nav a:hover {
@@ -92,8 +93,8 @@ margin-right: 30%;
 
   nav img {
     display: center;
-    width: 256px;
-    height: 256px;
+    width: 128px;
+    height: 128px;
     margin: 20 0 20 20;
     border: none;
   }
@@ -163,7 +164,6 @@ margin-right: 30%;
   .card h2 {
     margin-top: 10px;
     margin-bottom: 10px;
-    text-align: center;
   }
   
   .caption {
