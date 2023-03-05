@@ -64,26 +64,23 @@ margin-right: 30%;
     }
 
  /*Menu and options*/
- nav ul {
-    list-style: none;
-    background-color: #E5E5E5;
+  .menu {
+    display: inline-block;
     margin: 0;
     padding: 0;
-    display: flex;
-    float: center;
-    size: 18px;
   }
   
   nav li {
+    display: inline-block;
     margin: 0 10px;
+    border: solid;
   }
   
-  nav a {
+  nav li a {
     text-decoration: none;
     color: #1b4777;
-    display: block;
     padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
+    border: solid;
     transition: border-color 0.2s ease-in-out;
   }
   
@@ -139,6 +136,7 @@ margin-right: 30%;
 
   /* Game Cards */
   .card-container {
+    width: 60%;
     display: flex;
     justify-content: space-between;
   }
@@ -155,18 +153,21 @@ margin-right: 30%;
   .card img {
     max-width: 256px;
     max-height: 256px;
-    margin: 0 auto 1em;
   }
   
   .card h2 {
     margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
   }
   
   .caption {
+    margin-top: 0;
     font-style: italic;
   }
   
   .card ul {
     list-style: none;
-    margin: 0 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
