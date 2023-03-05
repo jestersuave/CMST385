@@ -141,23 +141,23 @@ margin-right: 30%;
   .card-container {
     width: 60%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 auto;
   }
 
-  @media screen and (max-width: 40em) {
   .card {
-    width: 400px;
+    width: 30%;
     margin: 1em auto;
     text-align: center;
-    border-style: outset;
-    border-width: medium;
-    padding: 1em;
-  }
-  }
+    border: 1px solid;
+    box-shadow: 0 4px 6px rgba(0,0,0,.1);
+    margin-bottom: 20px;
+    }
   
   .card img {
-    max-width: 256px;
-    max-height: 256px;
+    width: 100%;
+    display: block;
+    height: auto;
   }
   
   .card h2 {
