@@ -152,6 +152,53 @@ font-size: 2rem;
     text-decoration: underline;
   }
 
+  /* Store Items */
+
+  .store {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 20px;
+	margin: 20px;
+}
+
+  .item {
+	background-color: #fff;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+	padding: 10px;
+	text-align: center;
+	transition: transform 0.2s ease-in-out;
+}
+
+  .item:hover {
+	transform: scale(1.05);
+}
+
+  .item-img {
+	max-width: 100%;
+	height: auto;
+}
+
+  .item-name {
+	font-weight: bold;
+	margin: 0;
+}
+
+  .item-cost {
+	font-weight: bold;
+	color: #f00;
+	margin: 0;
+}
+
+  .item-code {
+	margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+	.store {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
   /* Footer */
   .footer-container {
     display: flex;
