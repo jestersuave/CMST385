@@ -6,15 +6,18 @@ color: #527C98;
 
 body h1 {
 text-align: center;
+font-size: 10vw;
 }
 
 body h2 {
 margin-left: 30%;
+font-size: 5vw;
 }
 
 body p {
 margin-left: 30%;
 margin-right: 30%;
+font-size: 2vw;
 }
 
 /* Image carousel */
@@ -70,7 +73,7 @@ margin-right: 30%;
     margin: 0;
     padding: 0;
     text-align: center;
-    font-size: 30px;
+    font-size: 2rem;
   }
   
   nav li {
@@ -94,51 +97,11 @@ margin-right: 30%;
 
   .menu img {
     display: center;
-    width: 128px;
-    height: 128px;
+    width: 10vw;
+    height: 10vw;
     margin: 20 0 20 20;
     border: none;
     background-color: none;
-  }
-
-
-  /* Footer */
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    background-color: #5E7EA2;
-    padding: 2em;
-    color:#E5E5E5;
-  }
-  
-  .footer-column {
-    flex-wrap: wrap;
-    justify-content: space-between;
-    color:#E5E5E5;
-  }
-  
-  .footer-column h3 {
-    font-size: 1.2em;
-    margin-bottom: 1em;
-  }
-  
-  .footer-column ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  .footer-column li {
-    margin-bottom: 0.5em;
-    color:#E5E5E5;
-  }
-  
-  .footer-column a {
-    color: #E5E5E5;
-    text-decoration: none;
-  }
-  
-  .footer-column a:hover {
-    text-decoration: underline;
   }
 
   /* Game Cards */
@@ -179,6 +142,45 @@ margin-right: 30%;
     text-decoration: none;
     list-style: none;
     margin: 10 20 10 20;
-    font-size: 30px;
+    font-size: 2rem;
     color: #527C98;
+  }
+
+  /* Footer */
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #5E7EA2;
+    padding: 2rem;
+    color:#E5E5E5;
+  }
+  
+  .footer-column {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color:#E5E5E5;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 0.5rem;
+    color:#E5E5E5;
+  }
+  
+  .footer-column a {
+    color: #E5E5E5;
+    text-decoration: none;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
   }
