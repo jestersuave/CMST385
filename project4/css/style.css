@@ -133,9 +133,13 @@ color: #527C98;
   }
 
   /* Game Cards */
+  .card-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .card {
-    display: inline-block;
-    width: 80%;
+    width: 30%;
     margin: 1em auto;
     text-align: center;
     border-style: outset;
@@ -150,7 +154,7 @@ color: #527C98;
   }
   
   .card h2 {
-    margin-top: 0;
+    margin-top: 10px;
   }
   
   .caption {
