@@ -4,16 +4,13 @@
     width: 100%;
     height: 300px;
     overflow: hidden;
-    animation-name: slide;
-    animation-duration: 3s;
   }
-
-  @keyframes slide {}
   
   .carousel-container {
     display: flex;
     width: 300%;
     height: 100%;
+    transition: transform 3s ease-in-out;
   }
   
   .carousel-slide {
@@ -27,6 +24,26 @@
     height: 100%;
     object-fit: cover;
   }
+  .carousel-nav {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+    
+  .carousel-nav button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+    
+  .carousel-nav button:focus {
+        outline: none;
+    }
 
   /* Footer */
   footer {

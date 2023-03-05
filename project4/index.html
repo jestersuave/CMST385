@@ -23,7 +23,46 @@
             <div class="carousel-slide"><img src="images/Viking.jpg"></div>
             <div class="carousel-slide"><img src="images/Yule.jpg"></div>
         </div>
+        <div class="carousel-nav">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
     </div>
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const container = carousel.querySelector('.carousel-container');
+        const slides = container.querySelectorAll('.carousel-slide');
+        const prevBtn = carousel.querySelector('.prev');
+        const nextBtn = carousel.querySelector('.next');
+        const slideWidth = slides[0].getBoundingClientRect().width;
+        
+        let currentIndex = 0;
+        
+        function setPosition() {
+          container.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        }
+        
+        function slideNext() {
+          if (currentIndex < slides.length - 1) {
+            currentIndex++;
+          } else {
+            currentIndex = 0;
+          }
+          setPosition();
+        }
+        
+        function slidePrev() {
+          if (currentIndex > 0) {
+            currentIndex--;
+          } else {
+            currentIndex = slides.length - 1;
+          }
+          setPosition();
+        }
+        
+        nextBtn.addEventListener('click', slideNext);
+        prevBtn.addEventListener('click', slidePrev);
+        </script>
     <div class="container">
         <ul class="menu">
           <li><a href="#">Games</a></li>
