@@ -100,7 +100,7 @@ margin-right: 30%;
 
 
   /* Footer */
-  footer {
+  .footer-container {
     display: flex;
     justify-content: space-between;
     background-color: #5E7EA2;
@@ -108,32 +108,32 @@ margin-right: 30%;
     color:#E5E5E5;
   }
   
-  .footer-columns {
+  .footer-column {
     flex-wrap: wrap;
     justify-content: space-between;
     color:#E5E5E5;
   }
   
-  .footer-columns h3 {
+  .footer-column h3 {
     font-size: 1.2em;
     margin-bottom: 1em;
   }
   
-  .footer-columns ul {
+  .footer-column ul {
     list-style: none;
     padding-left: 0;
   }
   
-  .footer-columns li {
+  .footer-column li {
     margin-bottom: 0.5em;
   }
   
-  .footer-columns a {
+  .footer-column a {
     color: #333;
     text-decoration: none;
   }
   
-  .footer-columns a:hover {
+  .footer-column a:hover {
     text-decoration: underline;
   }
 
