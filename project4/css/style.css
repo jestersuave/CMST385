@@ -22,6 +22,7 @@ margin-right: 30%;
     position: relative;
     overflow: hidden;
     height: 800px;
+    width: 80%;
   }
   
   .carousel-container {
@@ -60,7 +61,7 @@ margin-right: 30%;
   }
     
   .carousel-nav button:focus {
-        outline: none;
+    outline: none;
     }
 
  /*Menu and options*/
@@ -69,7 +70,7 @@ margin-right: 30%;
     margin: 0;
     padding: 0;
     text-align: center;
-    size: 30px;
+    font-size: 30px;
   }
   
   nav li {
@@ -91,7 +92,7 @@ margin-right: 30%;
     border-color: #133458;
   }
 
-  nav img {
+  .menu img {
     display: center;
     width: 128px;
     height: 128px;
@@ -128,6 +129,7 @@ margin-right: 30%;
   
   .footer-column li {
     margin-bottom: 0.5em;
+    color:#E5E5E5;
   }
   
   .footer-column a {
@@ -176,4 +178,6 @@ margin-right: 30%;
     list-style: none;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 30px;
+    color: #527C98;
   }
