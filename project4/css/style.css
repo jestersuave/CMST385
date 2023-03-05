@@ -17,7 +17,7 @@ font-size: 2vw;
 body p {
 margin-left: 30%;
 margin-right: 30%;
-font-size: 1vw;
+font-size: 2rem;
 }
 
 /* Image carousel */
@@ -74,7 +74,6 @@ font-size: 1vw;
     padding: 0;
     text-align: center;
     font-size: 2rem;
-    width: 80vw;
   }
   
   .menu li {
@@ -98,8 +97,8 @@ font-size: 1vw;
 
   .menu img {
     display: center;
-    width: 5vw;
-    height: 5vw;
+    width: 128px;
+    height: 128px;
     margin: 20 0 20 20;
     border: none;
     background-color: none;
@@ -107,7 +106,7 @@ font-size: 1vw;
 
   /* Game Cards */
   .card-container {
-    width: 10vw;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
