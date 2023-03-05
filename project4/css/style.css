@@ -65,7 +65,7 @@ margin-right: 30%;
  /*Menu and options*/
  nav ul {
     list-style: none;
-    background-color: #5E7EA2;
+    background-color: #E5E5E5;
     margin: 0;
     padding: 0;
     display: flex;
@@ -91,18 +91,10 @@ margin-right: 30%;
   }
 
   .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 100%;
-    margin: 0 auto;
-  }
-
-  nav img {
-    align-self: center;
-    height: 256px;
+    display: center;
     width: 256px;
+    height: 256px;
+    margin: 20 0 20 20;
   }
 
 
@@ -118,6 +110,7 @@ margin-right: 30%;
   .footer-columns {
     flex-wrap: wrap;
     justify-content: space-between;
+    color:#E5E5E5;
   }
   
   .footer-columns h3 {
@@ -172,12 +165,7 @@ margin-right: 30%;
     font-style: italic;
   }
   
-  .links {
-    display: flex;
-    text-align: center;
-    margin-top: 1em;
-  }
-  
-  .links a {
+  .card ul {
+    list-style: none;
     margin: 0 1em;
   }
