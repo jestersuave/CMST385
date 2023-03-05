@@ -17,15 +17,15 @@ font-size: 2vw;
 body p {
 margin-left: 30%;
 margin-right: 30%;
-font-size: 0.5vw;
+font-size: 1vw;
 }
 
 /* Image carousel */
 .carousel {
-    position: relative;
+    position: center;
     overflow: hidden;
     height: 800px;
-    width: 80%;
+    width: 30vw;
   }
   
   .carousel-container {
@@ -54,8 +54,8 @@ font-size: 0.5vw;
   }
     
   .carousel-nav button {
-    background-color: #fff;
-    color: #000;
+    background-color: #3498db;
+    color: #E5E5E5;
     border: none;
     margin: 0 0.5em;
     padding: 0.5em 1em;
@@ -76,7 +76,7 @@ font-size: 0.5vw;
     font-size: 2rem;
   }
   
-  nav li {
+  .menu li {
     display: inline-block;
     margin: 0 10px;
     background-color: #3498db;
@@ -84,15 +84,16 @@ font-size: 0.5vw;
     padding: 5px 10px;
   }
   
-  nav li a {
-    color: #fff;
+  .menu li a {
+    color: #E5E5E5;
     text-decoration: none;
     font-weight: bold;
     text-transform: uppercase;
+    background-color: #133458;
   }
   
-  nav a:hover {
-    border-color: #133458;
+  .menu a:hover {
+    background-color: #021e3b;
   }
 
   .menu img {
@@ -106,7 +107,7 @@ font-size: 0.5vw;
 
   /* Game Cards */
   .card-container {
-    width: 60%;
+    width: 10vw;
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
