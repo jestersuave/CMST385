@@ -11,12 +11,12 @@ font-size: 4vw;
 
 body h2 {
 margin-left: 30%;
-font-size: 2vw;
+font-size: 3rem;
 }
 
 body p {
-margin-left: 30%;
-margin-right: 30%;
+margin-left: 10%;
+margin-right: 10%;
 font-size: 2rem;
 }
 
@@ -24,7 +24,7 @@ font-size: 2rem;
 .carousel {
     position: relative;
     overflow: hidden;
-    height: 40vw;
+    height: 30vw;
     width: 100vw;
   }
   
