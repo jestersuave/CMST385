@@ -101,7 +101,7 @@ font-size: 2rem;
     height: 128px;
     margin: 20 0 20 20;
     border: none;
-    background-color: none;
+    background-color: transparent;
   }
 
   /* Game Cards */
@@ -128,7 +128,7 @@ font-size: 2rem;
   }
   
   .card h2 {
-    font-size: large;
+    font-size: 3rem;
     margin-top: 10px;
     margin-bottom: 10px;
   }
