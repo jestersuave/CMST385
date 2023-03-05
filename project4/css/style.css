@@ -21,6 +21,7 @@ margin-right: 30%;
 .carousel {
     position: relative;
     overflow: hidden;
+    height: 1000px;
   }
   
   .carousel-container {
@@ -90,7 +91,7 @@ margin-right: 30%;
     border-color: #133458;
   }
 
-  .logo {
+  nav img {
     display: center;
     width: 256px;
     height: 256px;
