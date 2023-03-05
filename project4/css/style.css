@@ -35,14 +35,9 @@
   }
   
   .footer-columns {
-    display: flex;
+    display: inline-block;
     flex-wrap: wrap;
     justify-content: space-between;
-  }
-  
-  .footer-columns > div {
-    width: 30%;
-    margin-bottom: 2em;
   }
   
   .footer-columns h3 {
