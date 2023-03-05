@@ -79,7 +79,7 @@ font-size: 2rem;
   
   .menu li {
     display: inline-block;
-    margin: 0 10% 0 10%;
+    margin: 0;
     background-color: #3498db;
     padding: 5px 10px;
   }
