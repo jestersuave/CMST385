@@ -113,16 +113,14 @@
     width: 80%;
     margin: 1em auto;
     text-align: center;
-    border: 1px solid #080808;
-    border-radius: 5px;
+    border-style: outset;
+    border-width: medium;
     padding: 1em;
   }
   
   .card img {
     max-width: 256px;
     max-height: 256px;
-    height: auto;
-    display: block;
     margin: 0 auto 1em;
   }
   
