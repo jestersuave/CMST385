@@ -195,3 +195,9 @@ font-size: 2rem;
   .footer-column a:hover {
     text-decoration: underline;
   }
+
+  .footer-copyright {
+    text-align: right;
+    margin-right: 10%;
+    font-size: 0.5rem;
+  }
