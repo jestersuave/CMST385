@@ -204,7 +204,8 @@ font-size: 2rem;
     display: flex;
     justify-content: space-between;
     background-color: #5E7EA2;
-    padding: 2rem;
+    padding-top: 10px;
+    padding-bottom: 0;
     color:#E5E5E5;
   }
   
@@ -240,8 +241,9 @@ font-size: 2rem;
   }
 
   .footer-copyright {
-    justify-content: right;
+    text-align: right;
     margin-right: 10%;
     font-size: 8px;
     background-color: #5E7EA2;
+    color: #E5E5E5;
   }
