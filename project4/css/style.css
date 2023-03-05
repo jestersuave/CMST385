@@ -15,8 +15,7 @@ font-size: 3rem;
 }
 
 body p {
-margin-left: 10%;
-margin-right: 10%;
+margin: 0 10%;
 font-size: 2rem;
 }
 
@@ -25,8 +24,7 @@ font-size: 2rem;
     position: relative;
     overflow: hidden;
     height: 30vw;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 0 5%;
   }
   
   .carousel-container {
@@ -71,7 +69,7 @@ font-size: 2rem;
  /*Menu and options*/
   .menu {
     align-content: center;
-    margin: 10% 0 10% 0;
+    margin: 0 10%;
     text-align: center;
     font-size: 2rem;
   }
@@ -105,7 +103,7 @@ font-size: 2rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
+    margin: auto;
   }
 
   .card {
@@ -124,8 +122,7 @@ font-size: 2rem;
   
   .card h2 {
     font-size: 3rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin: 10px;
     text-align: center;
   }
   
@@ -137,7 +134,7 @@ font-size: 2rem;
   
   .card ul {
     list-style: none;
-    margin: 10 20 10 20;
+    margin: 10 20;
     font-size: 2rem;
     color:#3498db
   }
@@ -209,7 +206,7 @@ font-size: 2rem;
     flex-wrap: wrap;
     justify-content: space-between;
     color:#E5E5E5;
-    margin: 0 10% 10% 10%;
+    margin: 0 10%;
   }
   
   .footer-column h3 {
