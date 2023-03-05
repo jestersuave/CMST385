@@ -104,11 +104,11 @@ font-size: 2rem;
     display: flex;
     justify-content: space-between;
     margin: auto;
+    text-align: center;
   }
 
   .card {
     width: 30%;
-    text-align: center;
     border: 1px solid;
     box-shadow: 0 4px 6px rgba(0,0,0,.1);
     margin-bottom: 20px;
@@ -123,7 +123,6 @@ font-size: 2rem;
   .card h2 {
     font-size: 3rem;
     margin: 10px;
-    text-align: center;
   }
   
   .caption {
