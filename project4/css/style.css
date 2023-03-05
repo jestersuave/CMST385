@@ -92,12 +92,29 @@ color: #527C98;
   }
 
   /*Menu and options*/
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  nav ul {
+    list-style: none;
     background-color: #5E7EA2;
-    padding: 20px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1b4777;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    border-color: #133458;
   }
 
   .logo {
@@ -109,28 +126,7 @@ color: #527C98;
     margin: 0 auto;
   }
 
-  .menu li {
-    list-style: none;
-    margin: 0 20px;
-    justify-content: left;
-  }
-
-  .menu li a {
-    text-decoration: none;
-    color: #dfe3e9;
-    font-weight: bold;
-    font-size: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  .menu li a:hover {
-    background-color: #1c3f68;
-    color: #fff;
-  }
-
-  .menu img {
+  nav img {
     align-self: center;
     height: 256px;
     width: 256px;
