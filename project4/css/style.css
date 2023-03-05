@@ -194,7 +194,8 @@ font-size: 2rem;
   }
 
   .footer-copyright {
-    text-align: right;
+    justify-content: right;
     margin-right: 10%;
-    font-size: 0.5rem;
+    font-size: 8px;
+    background-color: #5E7EA2;
   }
