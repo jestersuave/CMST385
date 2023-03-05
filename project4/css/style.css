@@ -13,11 +13,50 @@
     animation-duration: 3s;
     animation-iteration-count: infinite;
   }
-  
-  img {
+  .carousel img {
     flex-shrink: 0;
     width: 100%;
     height: auto;
+  }
+
+  /* Footer */
+  footer {
+    background-color: #eee;
+    padding: 2em;
+  }
+  
+  .footer-columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .footer-columns > div {
+    width: 30%;
+    margin-bottom: 2em;
+  }
+  
+  .footer-columns h3 {
+    font-size: 1.2em;
+    margin-bottom: 1em;
+  }
+  
+  .footer-columns ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer-columns li {
+    margin-bottom: 0.5em;
+  }
+  
+  .footer-columns a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer-columns a:hover {
+    text-decoration: underline;
   }
 
   /*Menu and options*/
