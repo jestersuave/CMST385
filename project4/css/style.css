@@ -169,6 +169,7 @@ font-size: 2rem;
     flex-wrap: wrap;
     justify-content: space-between;
     color:#E5E5E5;
+    margin: 0 10% 0 10%;
   }
   
   .footer-column h3 {
