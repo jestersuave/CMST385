@@ -20,8 +20,6 @@ margin-right: 30%;
 /* Image carousel */
 .carousel {
     position: relative;
-    width: 100%;
-    height: 600px;
     overflow: hidden;
   }
   
@@ -64,6 +62,50 @@ margin-right: 30%;
         outline: none;
     }
 
+ /*Menu and options*/
+ nav ul {
+    list-style: none;
+    background-color: #5E7EA2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: center;
+    size: 18px;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #1b4777;
+    display: block;
+    padding-bottom: 5px;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    border-color: #133458;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  nav img {
+    align-self: center;
+    height: 256px;
+    width: 256px;
+  }
+
+
   /* Footer */
   footer {
     display: flex;
@@ -99,47 +141,6 @@ margin-right: 30%;
   
   .footer-columns a:hover {
     text-decoration: underline;
-  }
-
-  /*Menu and options*/
-  nav ul {
-    list-style: none;
-    background-color: #5E7EA2;
-    margin: 0;
-    padding: 0;
-    display: flex;
-  }
-  
-  nav li {
-    margin: 0 10px;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #1b4777;
-    display: block;
-    padding-bottom: 5px;
-    border-bottom: 2px solid transparent;
-    transition: border-color 0.2s ease-in-out;
-  }
-  
-  nav a:hover {
-    border-color: #133458;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 200px;
-    height: 100%;
-    margin: 0 auto;
-  }
-
-  nav img {
-    align-self: center;
-    height: 256px;
-    width: 256px;
   }
 
   /* Game Cards */
