@@ -100,8 +100,7 @@ font-size: 2rem;
     width: 128px;
     height: 128px;
     margin: 20 0 20 20;
-    border: none;
-    background-color: transparent;
+    background-color: #E5E5E5;
   }
 
   /* Game Cards */
