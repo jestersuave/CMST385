@@ -250,7 +250,11 @@ font-size: 2rem;
   /* Table Settings */
   .table {
     display: block;
-    margin: 20px auto;
+    margin: 30px auto;
+  }
+
+  .table tr {
+    padding: 10px 20px
   }
 
   /* Rules List */
@@ -259,11 +263,11 @@ font-size: 2rem;
     font-size: 2rem;
   }
 
-  /* Territoris list */
+  /* Territory list */
   
   .territory {
     margin: 10px 40px;
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   /* Footer */
