@@ -259,15 +259,19 @@ font-size: 2rem;
 
   /* Rules List */
   .rules {
-    margin: 10px 40px;
+    margin: 10px 10%;
     font-size: 2rem;
   }
 
   /* Territory list */
   
   .territory {
-    margin: 10px 40px;
+    margin: 10px 10%;
     font-size: 2rem;
+  }
+
+  .note {
+    font-style: italic;
   }
 
   /* Footer */
