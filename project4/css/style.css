@@ -215,14 +215,16 @@ font-size: 2rem;
   /* Game page buttons */
   .button-container {
     display: flex;
-    justify-content: space-evenly;
-    margin: 0 20%;
+    justify-content: space-between;
+    margin: 10% 20%;
+    align-content: center;
   }
 
   .button-choices {
     background-color: #3498db;
     color: #E5E5E5;
     font-display: bold;
+    align-content: center;
   }
 
   /* Footer */
