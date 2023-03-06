@@ -102,7 +102,7 @@ font-size: 2rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    text-align: center;
+    align-content: center;
   }
 
   .card {
@@ -110,7 +110,7 @@ font-size: 2rem;
     height: 600px;
     border: 1px solid;
     box-shadow: 0 6px 8px 0 rgba(0,0,0,.1);
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     }
   
   .card img {
@@ -121,7 +121,7 @@ font-size: 2rem;
   
   .card h2 {
     font-size: 3rem;
-    margin: 10px;
+    padding: 10px;
   }
   
   .caption {
@@ -133,6 +133,7 @@ font-size: 2rem;
   .card ul {
     list-style: none;
     padding: 10 20;
+    margin: 0;
     font-size: 2rem;
     color:#3498db;
     align-content: center;
