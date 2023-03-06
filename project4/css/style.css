@@ -19,6 +19,16 @@ margin: 0 10%;
 font-size: 2rem;
 }
 
+ol {
+    margin: 10px 40px;
+    font-size: 3rem;
+}
+
+ul {
+    margin: 10px 40px;
+    font-size: 3rem;
+}
+
 /* Image carousel */
 .carousel {
     position: relative;
