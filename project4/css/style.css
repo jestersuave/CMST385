@@ -208,8 +208,21 @@ font-size: 2rem;
   /* Game Logos */
   .gamelogo {
     padding: 0 40px 0;
-    height: 256px;
-    width: 256px;
+    height: 128px;
+    width: 128px;
+  }
+
+  /* Game page buttons */
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 20%;
+  }
+
+  .button-choices {
+    background-color: #3498db;
+    color: #E5E5E5;
+    font-display: bold;
   }
 
   /* Footer */
