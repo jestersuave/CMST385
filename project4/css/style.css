@@ -249,8 +249,15 @@ font-size: 2rem;
 
   /* Table Settings */
   .table {
-    display: block;
+    width: 80%;
     margin: 30px auto;
+    border-collapse: collapse;
+  }
+
+  .table th, td {
+    padding: 10px;
+	text-align: center;
+	border: 1px solid black;
   }
 
   .table tr {
