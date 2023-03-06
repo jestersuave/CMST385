@@ -204,17 +204,6 @@ font-size: 2rem;
     height: 100%;
   }
 
-  /* Game Logos */
-  .gamelogo-container {
-    margin: 0 10%;
-  }
-
-  .gamelogo {
-    padding: 0 40px 0;
-    height: 128px;
-    width: 128px;
-  }
-
   /* Game page buttons */
   .button-container {
     display: flex;
