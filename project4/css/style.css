@@ -102,7 +102,6 @@ font-size: 2rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
-    align-content: auto;
   }
 
   .card {
@@ -227,12 +226,4 @@ font-size: 2rem;
   
   .footer-column a:hover {
     text-decoration: underline;
-  }
-
-  .footer-copyright {
-    text-align: right;
-    margin: 0;
-    font-size: 6px;
-    background-color: #5E7EA2;
-    color: #E5E5E5;
   }

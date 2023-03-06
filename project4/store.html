@@ -8,124 +8,222 @@
     <title>Supreme Store</title>  
     <link rel="icon" type="image/favicon" href="">  
 </head>
+<header>
+    <div class="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide"><img src="images/Ascend.jpg"></div>
+            <div class="carousel-slide"><img src="images/Captain.jpg"></div>
+            <div class="carousel-slide"><img src="images/Cave.jpg"></div>
+            <div class="carousel-slide"><img src="images/Escape.jpg"></div>
+            <div class="carousel-slide"><img src="images/Home.jpg"></div>
+            <div class="carousel-slide"><img src="images/Kraken.jpg"></div>
+            <div class="carousel-slide"><img src="images/Sails.jpg"></div>
+            <div class="carousel-slide"><img src="images/Ship.jpg"></div>
+            <div class="carousel-slide"><img src="images/Throne.jpg"></div>
+            <div class="carousel-slide"><img src="images/Viking.jpg"></div>
+            <div class="carousel-slide"><img src="images/Yule.jpg"></div>
+        </div>
+        <div class="carousel-nav">
+            <button class="prev">Prev</button>
+            <button class="next">Next</button>
+        </div>
+    </div>
+    <script>
+        const carousel = document.querySelector('.carousel');
+        const container = carousel.querySelector('.carousel-container');
+        const slides = container.querySelectorAll('.carousel-slide');
+        const prevBtn = carousel.querySelector('.prev');
+        const nextBtn = carousel.querySelector('.next');
+        const slideWidth = slides[0].getBoundingClientRect().width;
+        
+        let currentIndex = 0;
+        
+        function setPosition() {
+          container.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+        }
+        
+        function slideNext() {
+          if (currentIndex < slides.length - 1) {
+            currentIndex++;
+          } else {
+            currentIndex = 0;
+          }
+          setPosition();
+        }
+        
+        function slidePrev() {
+          if (currentIndex > 0) {
+            currentIndex--;
+          } else {
+            currentIndex = slides.length - 1;
+          }
+          setPosition();
+        }
+        
+        nextBtn.addEventListener('click', slideNext);
+        prevBtn.addEventListener('click', slidePrev);
+        </script>
+</header>
 <body>
+    <h1>In-game Store</h1>
+    <p>Items purchased here will be sent to your character in-game. If you have any issues, please contact an admin to help recover your items.</p>
     <div class="store">
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 1" class="item-img">
+			<img src="/project4/images/Alpha_Raptor_Swim_Top_Skin.png" alt="Raptor Top" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 1</p>
+				<p class="item-name">Raptor Top</p>
 				<p class="item-cost">$10</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+			<img src="/project4/images/Basilisk_Ghost_Costume.png" alt="Basilisk Ghost" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 2</p>
+				<p class="item-name">Basilisk Ghost Costume</p>
 				<p class="item-cost">$20</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+            <img src="/project4/images/Bonnet_Hat_Skin.png" alt="Bonnet Hat" class="item-img">
             <div class="item-details">
-                <p class="item-name">Item 2</p>
+                <p class="item-name">Bonnet Hat Skin</p>
                 <p class="item-cost">$20</p>
                 <p class="item-code">Redeem Code</p>
             </div>
         </div>
         <div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 1" class="item-img">
+			<img src="/project4/images/Bow_Eros_Skin.png" alt="Eros Bow" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 1</p>
+				<p class="item-name">Eros Bow Skin</p>
 				<p class="item-cost">$10</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+			<img src="/project4/images/Bulbdog-Print_Shirt_Skin.png" alt="Bulbdog Shirt" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 2</p>
+				<p class="item-name">Bulbdog Shirt</p>
 				<p class="item-cost">$20</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+            <img src="/project4/images/Bulbdog_Ghost_Costume.png" alt="Bulbdog Ghost" class="item-img">
             <div class="item-details">
-                <p class="item-name">Item 2</p>
+                <p class="item-name">Bulbdog Ghost Costume</p>
                 <p class="item-cost">$20</p>
                 <p class="item-code">Redeem Code</p>
             </div>
         </div>
         <div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 1" class="item-img">
+			<img src="/project4/images/Chocolate_Rabbit_Club_Skin.png" alt="Chocolate Club" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 1</p>
+				<p class="item-name">Chocolate Rabbit Club</p>
 				<p class="item-cost">$10</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+			<img src="/project4/images/Christmas_Bola_Skin.png" alt="Christmas Bola" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 2</p>
+				<p class="item-name">Christmas Bola</p>
 				<p class="item-cost">$20</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+            <img src="/project4/images/Direwolf_Ghost_Costume.png" alt="Direwolf Ghost" class="item-img">
             <div class="item-details">
-                <p class="item-name">Item 2</p>
+                <p class="item-name">Direwolf Ghost Costume</p>
                 <p class="item-cost">$20</p>
                 <p class="item-code">Redeem Code</p>
             </div>
         </div>
         <div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 1" class="item-img">
+			<img src="/project4/images/dye.png" alt="All Dye" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 1</p>
+				<p class="item-name">All Dyes Kit</p>
 				<p class="item-cost">$10</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+			<img src="/project4/images/E4_Remote_Eggsplosives_Skin.png" alt="Egg C4" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 2</p>
+				<p class="item-name">C4 Eggsplosive</p>
 				<p class="item-cost">$20</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+            <img src="/project4/images/Flying_Disc_Skin.png" alt="Frisbee" class="item-img">
             <div class="item-details">
-                <p class="item-name">Item 2</p>
+                <p class="item-name">Frisbee</p>
                 <p class="item-cost">$20</p>
                 <p class="item-code">Redeem Code</p>
             </div>
         </div>
         <div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 1" class="item-img">
+			<img src="/project4/images/Gray-Ball_Winter_Beanie_Skin.png" alt="Winter Beanie" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 1</p>
+				<p class="item-name">Winter Beanie</p>
 				<p class="item-cost">$10</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
 		</div>
 		<div class="item">
-			<img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+			<img src="/project4/images/Hockey_Mask_Skin.png" alt="Hockey Mask" class="item-img">
 			<div class="item-details">
-				<p class="item-name">Item 2</p>
+				<p class="item-name">Hockey Mask</p>
 				<p class="item-cost">$20</p>
 				<p class="item-code">Redeem Code</p>
 			</div>
         </div>
         <div class="item">
-            <img src="https://via.placeholder.com/150" alt="Item 2" class="item-img">
+            <img src="/project4/images/Ice_Pop-Print_Shirt_Skin.png" alt="Ice Pop Shirt" class="item-img">
             <div class="item-details">
-                <p class="item-name">Item 2</p>
+                <p class="item-name">Ice Pop Shirt</p>
+                <p class="item-cost">$20</p>
+                <p class="item-code">Redeem Code</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/project4/images/Manticore Helm.png" alt="Manticore Helm" class="item-img">
+            <div class="item-details">
+                <p class="item-name">Manticore Helm</p>
+                <p class="item-cost">$20</p>
+                <p class="item-code">Redeem Code</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/project4/images/Nutcracker_Slingshot_Skin.png" alt="Slingshot" class="item-img">
+            <div class="item-details">
+                <p class="item-name">Nutcracker Slingshot</p>
+                <p class="item-cost">$20</p>
+                <p class="item-code">Redeem Code</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/project4/images/Pitchfork_Skin.png" alt="Pitchfork" class="item-img">
+            <div class="item-details">
+                <p class="item-name">Pitchfork</p>
+                <p class="item-cost">$20</p>
+                <p class="item-code">Redeem Code</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/project4/images/Scary_Pumpkin_Helmet_Skin.png" alt="Pumpkin Head" class="item-img">
+            <div class="item-details">
+                <p class="item-name">Pumpkin Head</p>
+                <p class="item-cost">$20</p>
+                <p class="item-code">Redeem Code</p>
+            </div>
+        </div>
+        <div class="item">
+            <img src="/project4/images/Sunglasses_Skin.png" alt="Sunglasses" class="item-img">
+            <div class="item-details">
+                <p class="item-name">Sunglasses</p>
                 <p class="item-cost">$20</p>
                 <p class="item-code">Redeem Code</p>
             </div>
