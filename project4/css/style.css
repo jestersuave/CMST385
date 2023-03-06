@@ -19,12 +19,12 @@ margin: 0 10%;
 font-size: 2rem;
 }
 
-ol {
+body ol {
     margin: 10px 40px;
     font-size: 3rem;
 }
 
-ul {
+body ul {
     margin: 10px 40px;
     font-size: 3rem;
 }
