@@ -19,6 +19,10 @@ margin: 0 10%;
 font-size: 2rem;
 }
 
+body img {
+    align-content: center;
+}
+
 /* Image carousel */
 .carousel {
     position: relative;
