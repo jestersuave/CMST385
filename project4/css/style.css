@@ -4,23 +4,24 @@ background-color: #E5E5E5;
 color: #527C98;
 }
 
-body h1 {
+h1 {
 text-align: center;
 font-size: 4rem;
 }
 
-body h2 {
+h2 {
 margin: 0 10%;
 font-size: 3rem;
 }
 
-body p {
+p {
 margin: 0 10%;
 font-size: 2rem;
 }
 
-body img {
-    align-content: center;
+img {
+    display: block;
+    margin: 0 auto;
 }
 
 /* Image carousel */
