@@ -134,17 +134,13 @@ font-size: 2rem;
   
   .card ul {
     list-style: none;
-    padding: 10 20;
-    margin: 0;
     font-size: 2rem;
     color:#3498db;
-    align-content: center;
   }
 
   .card ul a {
     text-decoration: none;
     color:#5E7EA2;
-    padding: 20px 0;
   }
 
   .card a:hover {
@@ -173,8 +169,8 @@ font-size: 2rem;
 }
 
   .item-img {
-	width: 256px;
-	height: 256px;
+	width: 128px;
+	height: 128px;
 }
 
   .item-name {
