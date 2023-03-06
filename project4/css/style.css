@@ -257,6 +257,12 @@ body ul {
     margin: 0 auto;
 }
 
+  /* Table Settings */
+  .table {
+    display: block;
+    margin: 20px auto;
+  }
+
   /* Footer */
   .footer-container {
     display: flex;
