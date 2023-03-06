@@ -19,11 +19,6 @@ margin: 0 10%;
 font-size: 2rem;
 }
 
-img {
-    display: block;
-    margin: 0 auto;
-}
-
 /* Image carousel */
 .carousel {
     position: relative;
@@ -245,6 +240,12 @@ img {
   .button-choices:hover {
     background-color: #133458;
   }
+
+  /* Map Image */
+  .mapimage {
+    display: block;
+    margin: 0 auto;
+}
 
   /* Footer */
   .footer-container {
