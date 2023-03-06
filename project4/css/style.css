@@ -102,6 +102,8 @@ font-size: 2rem;
     width: 80%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    margin: 10%;
   }
 
   .card {
@@ -171,8 +173,8 @@ font-size: 2rem;
 }
 
   .item-img {
-	max-width: 100%;
-	height: auto;
+	width: 256px;
+	height: 256px;
 }
 
   .item-name {
