@@ -97,6 +97,10 @@ font-size: 2rem;
     padding: 10 20;
   }
 
+  #logo {
+    background-color: none;
+  }
+
   /* Game Cards */
   .card-container {
     width: 80%;
