@@ -189,7 +189,7 @@ font-size: 2rem;
 }
 
 /* Video Billboard */
-.video-billboard {
+  .video-billboard {
     position: relative;
     height: 50px;
     padding-bottom: 50%;
@@ -197,7 +197,7 @@ font-size: 2rem;
     height: 0;
     overflow: hidden;
     }
-.video-billboard iframe {
+  .video-billboard iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -206,6 +206,11 @@ font-size: 2rem;
   }
 
   /* Game Logos */
+
+  .gamelogo-container {
+    margin: 0 10%;
+  }
+
   .gamelogo {
     padding: 0 40px 0;
     height: 128px;
