@@ -238,6 +238,8 @@ img {
     color: #E5E5E5;
     text-decoration: none;
     border-radius: 8px;
+    size: 1rem;
+    font-style: bold;
   }
 
   .button-choices:hover {
