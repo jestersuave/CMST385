@@ -205,6 +205,13 @@ font-size: 2rem;
     height: 100%;
   }
 
+  /* Game Logos */
+  .gamelogo {
+    padding: 0 40px 0;
+    height: 256px;
+    width: 256px;
+  }
+
   /* Footer */
   .footer-container {
     display: flex;
