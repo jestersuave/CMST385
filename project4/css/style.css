@@ -97,7 +97,7 @@ font-size: 2rem;
     padding: 10 20;
   }
 
-  #logo {
+  .menu li a #logo {
     background-color: none;
   }
 
