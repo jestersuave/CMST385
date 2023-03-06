@@ -220,7 +220,7 @@ font-size: 2rem;
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
     align-content: center;
   }
 
@@ -233,7 +233,7 @@ font-size: 2rem;
     color: #E5E5E5;
     text-decoration: none;
     border-radius: 8px;
-    size: 1rem;
+    font-size: 1rem;
     font-style: bold;
   }
 
